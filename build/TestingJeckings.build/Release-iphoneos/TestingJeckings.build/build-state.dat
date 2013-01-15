@@ -1,0 +1,503 @@
+TTestingJeckings
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/TestingJeckings.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Info.plist TestingJeckings/TestingJeckings-Info.plist
+cProcessPCH /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch.pth TestingJeckings/TestingJeckings-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch.pth TestingJeckings/TestingJeckings-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/main.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldAppDelegate.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldViewController.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldViewController.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/main.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldAppDelegate.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/TestingJeckings normal armv7s
+cLd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/TestingJeckings normal armv7
+cCreateUniversalBinary /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings normal "armv7 armv7s"
+cGenerateDSYMFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app.dSYM /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings
+cCopyStringsFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/en.lproj/InfoPlist.strings TestingJeckings/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default.png TestingJeckings/Default.png
+cCopyPNGFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default@2x.png TestingJeckings/Default@2x.png
+cCopyPNGFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default-568h@2x.png TestingJeckings/Default-568h@2x.png
+cCompileStoryboard /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/en.lproj/MainStoryboard.storyboard
+cProcessProductPackaging "/Users/REDICK/Library/MobileDevice/Provisioning Profiles/447CF806-B192-4B47-B4F6-387DF80FB6A7.mobileprovision" /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/REDICK/Library/MobileDevice/Provisioning Profiles/447CF806-B192-4B47-B4F6-387DF80FB6A7.mobileprovision" /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/embedded.mobileprovision
+cTouch /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings.xcent
+cCodeSign /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app
+cValidate /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c0000000050783FB00000000000000094
+t1350057904
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c0000000050783FB00000000000000096
+t1350057904
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050783FB20000000000322740
+t1350057906
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050783FB30000000000629C80
+t1350057907
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050783FB300000000000015F7
+t1350057907
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050783FBC0000000000000E8D
+t1350057916
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050783FBD00000000011BA850
+t1350057917
+s18589776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
+c0000000050783FC20000000000001B54
+t1350057922
+s6996
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/Default-568h@2x.png
+c000000005062328600000000000048A2
+t1348612742
+s18594
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/Default.png
+c0000000050623286000000000000198C
+t1348612742
+s6540
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/Default@2x.png
+c00000000506232860000000000003EEB
+t1348612742
+s16107
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m
+c0000000050D1360500000000000007FA
+t1355888133
+s2042
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m
+c0000000050DBF731000000000000022E
+t1356592945
+s558
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/TestingJeckings-Prefix.pch
+c0000000050D13605000000000000014D
+t1355888133
+s333
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/en.lproj/InfoPlist.strings
+c0000000050D13605000000000000002D
+t1355888133
+s45
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/en.lproj/MainStoryboard.storyboard
+c0000000050D136360000000000000BCB
+t1355888182
+s3019
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m
+c0000000050D136050000000000000169
+t1355888133
+s361
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app.dSYM
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default.png
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default@2x.png
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Info.plist
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/PkgInfo
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/ResourceRules.plist
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldAppDelegate.o
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldViewController.o
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/TestingJeckings
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/TestingJeckings.LinkFileList
+c0000000050DBFA8F00000000000001E4
+t1356593807
+s484
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldAppDelegate.o
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldViewController.o
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/TestingJeckings
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/TestingJeckings.LinkFileList
+c0000000050DBFA8F00000000000001E7
+t1356593807
+s487
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings.xcent
+t2
+s0
+
+N/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/REDICK/Library/MobileDevice/Provisioning Profiles/447CF806-B192-4B47-B4F6-387DF80FB6A7.mobileprovision
+c0000000050A2F87900000000000033D4
+t1352857721
+s13268
+
+N/var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch.pth
+t2
+s0
+
+NTestingJeckings/TestingJeckings-Info.plist
+c0000000050D1360500000000000004CC
+t1355888133
+s1228
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4371af0e328cb641^0936320f328cb641^---0#1#0#--18"Check dependencies36"7C11326A-D602-4CA4-8493-1F554935D199-
+
+CCodeSign /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app
+s378286610.372759
+e378286610.737373
+r1
+xCodeSign
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CodeSign build/Release-iphoneos/TestingJeckings.app2f895f12328cb641^15c8bc12328cb641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/0000000000000000^950"CodeSign build/Release-iphoneos/TestingJeckings.app    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/codesign --force --sign 84bf1346b4fe55a6c741b121ed339e0f4aa9c389 --resource-rules=/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/ResourceRules.plist --entitlements /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings.xcent /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app36"BF26CD1F-5B30-45FF-A869-DDA5ACDD53B4-
+
+CCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldAppDelegate.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s378286608.299579
+e378286608.421363
+r1
+xCompileC
+xbuild/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldAppDelegate.o
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.mbddf4c10328cb641^cee06b10328cb641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m0000000000000000^3931"CompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldAppDelegate.o TestingJeckings/HelloWorldAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-generated-files.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-own-target-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-all-target-headers.hmap -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-project-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources/armv7 -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources -F/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch -MMD -MT dependencies -MF /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldAppDelegate.d --serialize-diagnostics /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldAppDelegate.dia -c /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldAppDelegate.o36"360A5E62-026A-483C-B9B2-7B4FA9667CEA-
+
+CCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldViewController.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s378286608.256774
+e378286608.375134
+r1
+xCompileC
+xbuild/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldViewController.o
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.meaeb4110328cb641^10086010328cb641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m0000000000000000^3949"CompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldViewController.o TestingJeckings/HelloWorldViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-generated-files.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-own-target-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-all-target-headers.hmap -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-project-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources/armv7 -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources -F/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch -MMD -MT dependencies -MF /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldViewController.d --serialize-diagnostics /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldViewController.dia -c /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/HelloWorldViewController.o36"563E5992-3A66-4ED2-83F1-5695024FCBA2-
+
+CCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/main.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s378286608.269914
+e378286608.319640
+r1
+xCompileC
+xbuild/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/main.o
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.mb2464510328cb641^ddd35110328cb641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m0000000000000000^3829"CompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/main.o TestingJeckings/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-generated-files.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-own-target-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-all-target-headers.hmap -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-project-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources/armv7 -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources -F/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch -MMD -MT dependencies -MF /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/main.dia -c /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/main.o36"16B6B036-B7A2-435F-AD0F-653175D3E317-
+
+CCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldAppDelegate.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s378286608.187770
+e378286608.313392
+r1
+xCompileC
+xbuild/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldAppDelegate.o
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.mbc3d3010328cb641^0a4b5010328cb641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m0000000000000000^3938"CompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldAppDelegate.o TestingJeckings/HelloWorldAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-generated-files.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-own-target-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-all-target-headers.hmap -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-project-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources/armv7s -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources -F/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch -MMD -MT dependencies -MF /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldAppDelegate.d --serialize-diagnostics /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldAppDelegate.dia -c /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldAppDelegate.m -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldAppDelegate.o36"1DE34D64-6716-46FB-8491-5B3A345F8F69-
+
+CCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldViewController.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s378286608.187907
+e378286608.297912
+r1
+xCompileC
+xbuild/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldViewController.o
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m3a403010328cb641^44514c10328cb641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m0000000000000000^3956"CompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldViewController.o TestingJeckings/HelloWorldViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-generated-files.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-own-target-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-all-target-headers.hmap -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-project-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources/armv7s -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources -F/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch -MMD -MT dependencies -MF /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldViewController.d --serialize-diagnostics /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldViewController.dia -c /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/HelloWorldViewController.m -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/HelloWorldViewController.o36"7A08433F-632B-49E6-B69C-4902B95668CC-
+
+CCompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/main.o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s378286608.187701
+e378286608.268621
+r1
+xCompileC
+xbuild/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/main.o
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.mb6653010328cb641^63d14410328cb641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m0000000000000000^3836"CompileC build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/main.o TestingJeckings/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-generated-files.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-own-target-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-all-target-headers.hmap -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-project-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources/armv7s -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources -F/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch -MMD -MT dependencies -MF /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/main.dia -c /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/main.m -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/main.o36"441AA975-097F-4AA4-9B45-9E5656701DF7-
+
+CCompileStoryboard /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/en.lproj/MainStoryboard.storyboard
+s378286609.169956
+e378286610.300722
+r1
+xCompileStoryboard
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/en.lproj/MainStoryboard.storyboard
+o2012-12-27 15:36:49.832 Interface Builder Cocoa Touch Tool[2605:f07] CFPreferences: user home directory at file://localhost/Users/REDICK/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard TestingJeckings/en.lproj/MainStoryboard.storyboard809d2b11328cb641^5a0d4d12328cb641^-238"2012-12-27 15:36:49.832 Interface Builder Cocoa Touch Tool[2605:f07] CFPreferences: user home directory at file://localhost/Users/REDICK/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/en.lproj/MainStoryboard.storyboard0000000000000000^988"CompileStoryboard TestingJeckings/en.lproj/MainStoryboard.storyboard    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/en.lproj/MainStoryboard.storyboardc /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"6152437F-8CA1-4EF8-8EF2-5308B64B12AE-
+
+CCopyPNGFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default-568h@2x.png TestingJeckings/Default-568h@2x.png
+s378286609.164952
+e378286609.458544
+r1
+xCopyPNGFile
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default-568h@2x.png
+xTestingJeckings/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile build/Release-iphoneos/TestingJeckings.app/Default-568h@2x.png TestingJeckings/Default-568h@2x.png4c512a11328cb641^95647511328cb641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/Default-568h@2x.png0000000000000000^735"CopyPNGFile "build/Release-iphoneos/TestingJeckings.app/Default-568h@2x.png" "TestingJeckings/Default-568h@2x.png"    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/Default-568h@2x.png" "/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default-568h@2x.png"36"F970DDFF-3F74-41F4-B4BF-6BFBF6E1C24B-
+
+CCopyPNGFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default.png TestingJeckings/Default.png
+s378286609.164747
+e378286609.403447
+r1
+xCopyPNGFile
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default.png
+xTestingJeckings/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Release-iphoneos/TestingJeckings.app/Default.png TestingJeckings/Default.png02472a11328cb641^6e506711328cb641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/Default.png0000000000000000^695"CopyPNGFile build/Release-iphoneos/TestingJeckings.app/Default.png TestingJeckings/Default.png    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/Default.png /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default.png36"5499729A-3563-447B-B619-0E5D74C1BD70-
+
+CCopyPNGFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default@2x.png TestingJeckings/Default@2x.png
+s378286609.164758
+e378286609.440267
+r1
+xCopyPNGFile
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default@2x.png
+xTestingJeckings/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Release-iphoneos/TestingJeckings.app/Default@2x.png TestingJeckings/Default@2x.pngaa472a11328cb641^e6907011328cb641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/Default@2x.png0000000000000000^715"CopyPNGFile "build/Release-iphoneos/TestingJeckings.app/Default@2x.png" "TestingJeckings/Default@2x.png"    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/Default@2x.png" "/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Default@2x.png"36"2270C350-40B8-4ECD-8447-7A688F3FDC10-
+
+CCopyStringsFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/en.lproj/InfoPlist.strings TestingJeckings/en.lproj/InfoPlist.strings
+s378286609.164736
+e378286609.168687
+r1
+xCopyStringsFile
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/en.lproj/InfoPlist.strings
+xTestingJeckings/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy TestingJeckings/en.lproj/InfoPlist.strings95482a11328cb641^662f2b11328cb641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/en.lproj/InfoPlist.strings0000000000000000^666"CopyStringsFile build/Release-iphoneos/TestingJeckings.app/en.lproj/InfoPlist.strings TestingJeckings/en.lproj/InfoPlist.strings    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/en.lproj -- TestingJeckings/en.lproj/InfoPlist.strings36"6064401F-959C-4A72-B6C9-49E237D8ECF8-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/TestingJeckings.app/ResourceRules.plist
+s378286607.210551
+e378286607.213620
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/TestingJeckings.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Release-iphoneos/TestingJeckings.app/ResourceRules.plistba11360f328cb641^68af360f328cb641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/ResourceRules.plist000080077f001042^948"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/TestingJeckings.app/ResourceRules.plist    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app36"BD301D44-175C-44F5-89E9-9BA3BF5A284B-
+
+CCreateUniversalBinary /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings normal "armv7 armv7s"
+s378286609.034691
+e378286609.113587
+r1
+xCreateUniversalBinary
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Create universal binary /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings1c410e11328cb641^a1141d11328cb641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings000000000080d041^853"CreateUniversalBinary build/Release-iphoneos/TestingJeckings.app/TestingJeckings normal "armv7 armv7s"    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    lipo -create /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/TestingJeckings /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/TestingJeckings -output /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings36"4AD4CAC8-8EB8-4CCB-BB3F-5300B14ECB19-
+
+CGenerateDSYMFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app.dSYM /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings
+s378286609.120572
+e378286609.156441
+r1
+xGenerateDSYMFile
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app.dSYM
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Generating /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app.dSYM17f41e11328cb641^800d2811328cb641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app.dSYM000000000080d041^737"GenerateDSYMFile build/Release-iphoneos/TestingJeckings.app.dSYM build/Release-iphoneos/TestingJeckings.app/TestingJeckings    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app.dSYM36"708B79E2-7350-418D-B096-C2871501A0FC-
+
+CLd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/TestingJeckings normal armv7
+s378286608.428393
+e378286608.972644
+r1
+xLd
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/TestingJeckings
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Link /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/TestingJeckingsc5c56d10328cb641^b9fff810328cb641^---0#0#0#--1311"Ld build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/TestingJeckings normal armv7    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -F/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -filelist /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/TestingJeckings.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7/TestingJeckings36"52E8BB8B-D75D-467B-85C8-70D694181690-
+
+CLd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/TestingJeckings normal armv7s
+s378286608.319878
+e378286609.027720
+r1
+xLd
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/TestingJeckings
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Link /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/TestingJeckings98fa5110328cb641^55180711328cb641^---0#0#0#--1316"Ld build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/TestingJeckings normal armv7s    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -F/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -filelist /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/TestingJeckings.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/Objects-normal/armv7s/TestingJeckings36"C7B83562-3D4C-4FA6-904F-1A627204C82B-
+
+CProcessInfoPlistFile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Info.plist TestingJeckings/TestingJeckings-Info.plist
+s378286607.211184
+e378286607.215372
+r1
+xProcessInfoPlistFile
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Info.plist
+xTestingJeckings/TestingJeckings-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Process TestingJeckings/TestingJeckings-Info.plist392b360f328cb641^8e22370f328cb641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/TestingJeckings-Info.plist0000000000000000^904"ProcessInfoPlistFile build/Release-iphoneos/TestingJeckings.app/Info.plist TestingJeckings/TestingJeckings-Info.plist    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility TestingJeckings/TestingJeckings-Info.plist -genpkginfo /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/ResourceRules.plist -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/Info.plist36"9C55DF4D-FE2A-4E3A-B1F6-C50DE5EF6253-
+
+CProcessPCH /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch.pth TestingJeckings/TestingJeckings-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s378286607.223690
+e378286608.250435
+r1
+xProcessPCH
+x/var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch.pth
+xTestingJeckings/TestingJeckings-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile TestingJeckings/TestingJeckings-Prefix.pchb169390f328cb641^66324010328cb641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/TestingJeckings-Prefix.pch0000000000000000^3858"ProcessPCH /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch.pth TestingJeckings/TestingJeckings-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-generated-files.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-own-target-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-all-target-headers.hmap -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-project-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources/armv7 -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources -F/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch.dia -c /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/TestingJeckings-Prefix.pch -o /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-afjgjmtadulwplckmgwtzyhuwitv/TestingJeckings-Prefix.pch.d36"F6A96FC6-C579-45AC-A34A-39990DAD89CD-
+
+CProcessPCH /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch.pth TestingJeckings/TestingJeckings-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s378286607.223678
+e378286608.180931
+r1
+xProcessPCH
+x/var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch.pth
+xTestingJeckings/TestingJeckings-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile TestingJeckings/TestingJeckings-Prefix.pchb668390f328cb641^f8502e10328cb641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/TestingJeckings-Prefix.pch0000000000000000^3861"ProcessPCH /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch.pth TestingJeckings/TestingJeckings-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-generated-files.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-own-target-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-all-target-headers.hmap -iquote /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings-project-headers.hmap -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources/armv7s -I/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/DerivedSources -F/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch.dia -c /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/TestingJeckings/TestingJeckings-Prefix.pch -o /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/0v/mcl20x9j6rbfnrdg4n4dm7fw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestingJeckings-Prefix-czzpownfdigivkdjivobreohuqkw/TestingJeckings-Prefix.pch.d36"D28959BA-E81C-448F-B59A-BF1E4BC2C3FE-
+
+CProcessProductPackaging "/Users/REDICK/Library/MobileDevice/Provisioning Profiles/447CF806-B192-4B47-B4F6-387DF80FB6A7.mobileprovision" /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/embedded.mobileprovision
+s378286610.319481
+e378286610.322396
+r1
+xProcessProductPackaging
+x/Users/REDICK/Library/MobileDevice/Provisioning Profiles/447CF806-B192-4B47-B4F6-387DF80FB6A7.mobileprovision
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection203"ProcessProductPackaging "/Users/REDICK/Library/MobileDevice/Provisioning Profiles/447CF806-B192-4B47-B4F6-387DF80FB6A7.mobileprovision" build/Release-iphoneos/TestingJeckings.app/embedded.mobileprovision25e65112328cb641^d3875212328cb641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/embedded.mobileprovision0000000000000000^772"ProcessProductPackaging "/Users/REDICK/Library/MobileDevice/Provisioning Profiles/447CF806-B192-4B47-B4F6-387DF80FB6A7.mobileprovision" build/Release-iphoneos/TestingJeckings.app/embedded.mobileprovision    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility "/Users/REDICK/Library/MobileDevice/Provisioning Profiles/447CF806-B192-4B47-B4F6-387DF80FB6A7.mobileprovision" -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/embedded.mobileprovision36"F200961B-9C94-4634-B620-3429A1B1FDBA-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings.xcent
+s378286610.361513
+e378286610.364548
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection233"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings.xcent3ba85c12328cb641^4c525d12328cb641^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings.xcent000000000080d041^858"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings.xcent    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/TestingJeckings.build/Release-iphoneos/TestingJeckings.build/TestingJeckings.xcent36"92D1B4B7-F9DD-490A-A79E-AE026D448931-
+
+CTouch /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app
+s378286610.330347
+e378286610.353616
+r1
+xTouch
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app9ba95412328cb641^fb915a12328cb641^---0#0#0#--463"Touch build/Release-iphoneos/TestingJeckings.app    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app36"9A79FF72-20F4-42CF-BC83-446ECBAC780D-
+
+CValidate /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app
+s378286610.745355
+e378286611.405327
+r1
+xValidate
+x/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)
+oExecutable=/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckings
+ocodesign_wrapper-4.1: using Apple CA for profile evaluation
+o/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app: valid on disk
+o/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app: satisfies its Designated Requirement
+otest-requirement: code failed to satisfy specified code requirement(s)
+ocodesign_wrapper-4.1: failed to execute codesign(1)
+o - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Validate build/Release-iphoneos/TestingJeckings.appf8e3be12328cb641^54c66713328cb641^-601"Unable to validate your application. - (null)Executable=/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/TestingJeckingscodesign_wrapper-4.1: using Apple CA for profile evaluation/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app: valid on disk/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app: satisfies its Designated Requirementtest-requirement: code failed to satisfy specified code requirement(s)codesign_wrapper-4.1: failed to execute codesign(1) - (null2(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57378286611#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--2@175" Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)165"Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate.378286611#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@113"file://localhost/Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app/0000000000000000^607"Validate build/Release-iphoneos/TestingJeckings.app    cd /Users/REDICK/Documents/Workspace_iOS/TestingJeckings    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/REDICK/Documents/Workspace_iOS/TestingJeckings/build/Release-iphoneos/TestingJeckings.app36"BCBAB772-48B2-4D0A-A511-BC617A6A78C0-
+
